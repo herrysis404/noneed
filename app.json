@@ -1,12 +1,9 @@
 {
-  "name": "Telegram Torrent Leecher",
-  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentleechgdrivesupport!",
+  "name": "Telegram no need to try",
+  "description": "A Telegrm.",
   "keywords": [
     "telegram"
   ],
-  "repository": "https://github.com/gautamajay52/TorrentLeech-Gdrive",
-  "success_url": "https://t.me/torrentleechgdrivesupport",
-  "website": "https://github.com/gautamajay52/TorrentLeech-Gdrive",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -38,7 +35,7 @@
     },
     "CHUNK_SIZE": {
       "description": "should be an integer",
-      "value": "1281111",
+      "value": "128",
       "required": false
     },
     "ARIA_TWO_STARTED_PORT": {
@@ -112,5 +109,16 @@
       "required": false
     }
   },
+  {
   "stack": "container"
+  },
+  {
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  }, {
+    "url": "https://github.com/amivin/aria2-heroku.git"
+  }]
+  }  
 }
