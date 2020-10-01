@@ -12,6 +12,5 @@ Pillow
 pyrogram
 tgcrypto
 git+https://github.com/ytdl-org/youtube-dl
-git+https://github.com/amivin/aria2-heroku.git
 hurry.filesize
 async_lru
