@@ -1,6 +1,6 @@
 {
-  "name": "Telegram no need to try",
-  "description": "A Telegrm.",
+  "name": "Telegram Torrent Leecher",
+  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentleechgdrivesupport!",
   "keywords": [
     "telegram"
   ],
@@ -109,16 +109,5 @@
       "required": false
     }
   },
-  {
   "stack": "container"
-  },
-  {
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
-  }, {
-    "url": "https://github.com/amivin/aria2-heroku.git"
-  }]
-  }  
 }
