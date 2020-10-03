@@ -114,12 +114,7 @@
   },
   "addons": [
   ],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "https://github.com/amivin/aria2-heroku"
-  }, {
-    "url": "heroku/python"
-  }],
-  "stack": "container"
+  BUILDPACK_URL=https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+  BUILDPACK_URL=https://github.com/amivin/aria2-heroku
+  BUILDPACK_URL=https://github.com/heroku/heroku-buildpack-python
 }
