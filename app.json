@@ -1,8 +1,8 @@
 {
-  "name": "Ttgtgtgtg",
-  "description": "tgtgtgtgtg",
+  "name": "Telegram Torrent Leecher",
+  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @torrentleechgdrivesupport!",
   "keywords": [
-    "tg"
+    "telegram"
   ],
   "repository": "https://github.com/herrysis404/noneed",
   "success_url": "https://t.me/torrentleechgdrivesupport",
@@ -111,5 +111,6 @@
       "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
       "required": false
     }
-  }
+  },
+  "stack": "container"
 }
